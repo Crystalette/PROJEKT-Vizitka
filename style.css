@@ -16,7 +16,6 @@ img {
     border-radius: 50%;
     border: 3px solid white;
     width: 150px;
-    float: right;
     position: absolute;
     right: -75px;
     top: -75px;
@@ -35,7 +34,7 @@ div {
     margin-right: auto;
 }
 
-a {
+.odkaz {
     font-weight: bold;
     display: block;
     color: white;
@@ -47,17 +46,23 @@ a {
 }
 
 
-.odkazt {
+.twitter {
     margin-bottom: 5px;
     background-color: #1da1f2;
 }
 
-.odkazf {
+.twitter:hover {
+    background-color:#0b7bc1;
+}
+
+.facebook {
     background-color: #3b5998;
 }
 
+.facebook:hover {
+    background-color: #2b406e;
+}
 p {
-    clear: right;
     margin-bottom: 30px;
 }
 /*
